@@ -23,5 +23,7 @@ if bit == '64bit':
     from p410v1 import bnsbuy
     bnsbuy()
 elif bit == '32bit':
-    from p410v132 import bnsbuy
-    bnsbuy()
+    os.system('clear')
+    print('Your Device Not Supported')
+    #from p410v132 import bnsbuy
+    #bnsbuy()
