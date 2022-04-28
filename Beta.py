@@ -20,7 +20,7 @@ except:
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from p410v1 import bnsbuy
+    from p410v2 import bnsbuy
     bnsbuy()
 elif bit == '32bit':
     os.system('clear')
